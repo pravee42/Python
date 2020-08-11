@@ -1,0 +1,12 @@
+#python program to add the element at end of the list 
+
+def appendmethod(list1, number):
+    t = 0
+    for i in list1:
+        t += 1
+    list1.insert(t,number)
+    return list1
+
+list1 = [1,2,3]
+list1 = appendmethod(list1,4)
+print(list1)
